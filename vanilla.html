@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!-- <html lang="en"> -->
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="vanilla.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YoonSang</title>
+  </head>
+<body>
+  <div class="slider"></div>
+
+  <div class="weather">
+    <div class="weather-click">
+      <span class="weather-icon">★</span>
+      <img id="weather-image" src="">
+      <span class="js-weather"></span>
+    </div>
+      <div class="weather-min"></div>
+      <div class="weather-max"></div>
+      <div class="weather-wind"></div>
+      <div class="weather-humidity"></div>
+  </div>
+
+    <div class="js-clock">
+        <h1>00:00:00</h1>
+    </div>
+
+    <form class="js-form">
+        <input class="form-input" type="text" placeholder="What is your name?">
+    </form>
+    <h4 class="js-greeting greeting"></h4>
+
+      <div id="prev" class="prev"><<</div>
+      <div id="next" class="next">>></div>
+
+    <div class="todo-box">  
+      <form class="js-toDoForm">
+        <div class="plus-btn">＋</div>
+        <input class="js-input" type="text" placeholder="Add task" />
+      </form>
+
+        <h4 class="js-pending">To Do List</h4>        
+        <ul class="js-toDoList"></ul>
+    </div>
+
+    <span class="clear">↺</span>
+
+
+    <script src="js-clock.js"></script>
+    <script src="js-greet.js"></script>
+    <script src="js-todo.js"></script>
+    <script src="js-background.js"></script>
+    <script src="js-weather.js"></script>
+</body>
+</html>

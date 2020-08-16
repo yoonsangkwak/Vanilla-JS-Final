@@ -1,0 +1,36 @@
+.js-form {
+    display: none;
+}
+.greeting {
+    display: none;
+    color: white;
+    font-size: 36px;
+    margin-top: 0px;
+    margin-bottom: 31px;
+}
+
+.showing {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.form-input {
+    display: inline;
+    text-align: center;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid white;
+    margin-bottom: 30px;
+    padding: 0px;
+    outline: none;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.form-input::placeholder {
+    color: white;
+}
