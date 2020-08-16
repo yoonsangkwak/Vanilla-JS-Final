@@ -21,7 +21,8 @@
     position: fixed;
     width: 40px;
     height: 40px;
-    background-color: rgba(0, 0, 0, 0.5);
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    background-color: transparent;
     border-radius: 50%;
     color: white;
     font-weight: bold;
@@ -38,7 +39,8 @@
     position: fixed;
     width: 40px;
     height: 40px;
-    background-color: rgba(0, 0, 0, 0.5);
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    background-color: transparent;
     border-radius: 50%;
     color: white;
     font-weight: bold;
@@ -46,4 +48,20 @@
     top: 50%;
     right: 10px;
     cursor: pointer;
+  }
+
+  .prev:hover {
+    animation: backcolor 1s ease forwards;
+  }
+  
+  .next:hover {
+    animation: backcolor 1s ease forwards;
+  }
+
+  @keyframes backcolor {
+    0% {
+      background-color: rgba(0, 0, 0, 0);
+    } 100% {
+      background-color: rgba(0, 0, 0, 0.5);
+    }
   }
