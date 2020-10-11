@@ -1,5 +1,6 @@
 # Vanilla-JS-Final
-## Google Chrome Plugin Momentum clone coding
+## Google Chrome Plug-in Momentum clone coding
+### https://yoonsangkwak.github.io/Vanilla-JS-Final/
 
 ---
 ![vjs1](https://user-images.githubusercontent.com/67727981/95671957-9a53f600-0bd7-11eb-9a8f-324c459feea9.png)
@@ -33,3 +34,4 @@
 - 오른쪽 하단에 Reset 버튼을 누르면 모든 데이터들을 초기화합니다.
 - 이 때 Local Storage에 있는 모든 정보들을 삭제하고 맨 처음 초기화상태로 돌아갑니다.
 ---
+- API KEY가 Github에 노출되는 issue로 인해 .gitignore을 통해 API를 사용해서 제공하는 서비스들을 막아놓은 상태
